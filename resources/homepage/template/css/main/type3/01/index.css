@@ -1,0 +1,144 @@
+#fullpage .section:nth-child(1) {
+    border-radius: 0 0 0 300px;
+    background: url('/resources/homepage/template/img/main/type3/01/bg.svg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+@keyframes fade-in-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slogan {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    opacity: 0;
+    animation: fade-in-up 0.8s ease-out forwards;
+    animation-delay: 0.3s;
+    margin-bottom: 36px;
+}
+
+.slogan div:first-child {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 4.5px;
+    color: var(--white);
+    font-family: GmarketSans, sans-serif;
+    font-style: normal;
+}
+
+.slogan div:last-child {
+    font-size: 54px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.08px;
+    color: var(--white);
+    font-family: GmarketSans, sans-serif;
+    font-style: normal;
+}
+
+.slogan div:last-child span {
+    font-weight: 700;
+}
+
+#mainSearchForm {
+    position: relative;
+    width: 600px;
+    height: 65px;
+    border-radius: 33px;
+    background: var(--white);
+    margin-bottom: 126px;
+}
+
+#book-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+    height: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--black);
+    font-family: Pretendard-Medium, sans-serif;
+    font-style: normal;
+    margin-left: 40px;
+}
+
+#book-search::placeholder {
+    color: var(--gray600);
+}
+
+#book-search:focus,
+#book-search:hover {
+    outline: none;
+}
+
+#mainSearchForm img {
+    position: absolute;
+    top: 50%;
+    right: 18px;
+    width: 24px;
+    height: 24px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.quick-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quick-menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.quick-menu-item div:first-child img {
+    width: 120px;
+    height: 120px;
+}
+
+.quick-menu-item div:last-child {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    color: var(--white);
+    font-family: Pretendard-Medium, sans-serif;
+    font-style: normal;
+}
+
+@keyframes bounce-up {
+    0% {
+        transform: translateY(0);
+    }
+
+    30% {
+        transform: translateY(-8px);
+    }
+
+    60% {
+        transform: translateY(4px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.quick-menu-item:hover div:first-child img {
+    animation: bounce-up 0.6s ease;
+}

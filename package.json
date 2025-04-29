@@ -1,0 +1,17 @@
+{
+  "name": "homepage_template",
+  "version": "1.0.0",
+  "description": "홈페이지 템플릿",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "강윤경",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "stylelint": "^16.19.1",
+    "stylelint-config-standard": "^38.0.0",
+    "stylelint-order": "^6.0.4"
+  }
+}
