@@ -4,16 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f8acd5b-8aa0-45c6-8430-49a3f6019de4" name="변경" comment="" />
+    <list default="true" id="7f8acd5b-8aa0-45c6-8430-49a3f6019de4" name="변경" comment="[init] init">
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/css/.gitingnore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="c67e4b5a-a457-448a-813f-f277487749fa" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2w7Cs5PNhikmlR2xdhiq2TD1k2E" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -21,7 +31,8 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/GoodDesigner/WebstormProjects/homepage_template/resources/homepage/template/img/main/type7/03&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/GoodDesigner/WebstormProjects/homepage_template&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -66,11 +77,24 @@
       <option name="presentableId" value="Default" />
       <updated>1745383428966</updated>
       <workItem from="1745383430120" duration="10619000" />
-      <workItem from="1745816992635" duration="46730000" />
+      <workItem from="1745816992635" duration="48834000" />
     </task>
+    <task id="LOCAL-00001" summary="[init] init">
+      <option name="closed" value="true" />
+      <created>1745970739443</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745970739443</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[init] init" />
+    <option name="LAST_COMMIT_MESSAGE" value="[init] init" />
   </component>
 </project>
