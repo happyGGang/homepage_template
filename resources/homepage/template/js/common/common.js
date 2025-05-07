@@ -11,6 +11,23 @@ jQuery.event.special.touchmove = {
 };
 
 $(document).ready(function () {
+    // #header에 호버 이벤트
+    $('.g-menu').on('mouseenter', function () {
+        $('.gnb-menu li .SubMenu').css('display', 'flex');
+    });
+
+    // #header와 .subMenu ul에서 마우스가 완전히 떠날 때
+    $('.g-menu, .gnb-menu li .SubMenu').on('mouseleave', function (e) {
+        if (!$(e.relatedTarget).closest('.g-menu, .gnb-menu li .SubMenu').length) {
+            $('.gnb-menu li .SubMenu').css('display', 'none');
+        }
+    });
+
+    // .subMenu ul에 마우스가 들어가면 유지
+    $('.gnb-menu li .SubMenu').on('mouseenter', function () {
+        $('.gnb-menu li .SubMenu').css('display', 'flex');
+    });
+
     // 배너 슬라이드
     $('.banner-slide').slick({
         slidesToShow: 7,

@@ -4,9 +4,79 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f8acd5b-8aa0-45c6-8430-49a3f6019de4" name="변경" comment="[init] init">
-      <change afterPath="$PROJECT_DIR$/resources/homepage/template/css/.gitingnore" afterDir="false" />
+    <list default="true" id="7f8acd5b-8aa0-45c6-8430-49a3f6019de4" name="변경" comment="[init] add .gitignore">
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/css/정렬.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/01/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/01/e-library-active.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/01/e-library.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/01/hope-book-active.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/01/hope-book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/01/loan-active.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/01/loan.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/01/pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/01/play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/01/popup-next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/01/popup-prev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/01/popup.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/01/scroll-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/02/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/02/e-library-active.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/02/e-library.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/02/hope-book-active.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/02/hope-book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/02/loan-active.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/02/loan.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/02/pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/02/play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/02/popup-next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/02/popup-prev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/02/popup.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/02/scroll-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/03/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/03/e-library-active.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/03/e-library.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/03/hope-book-active.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/03/hope-book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/03/loan-active.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/03/loan.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/03/pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/03/play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/03/popup-next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/03/popup-prev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/03/popup.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type8/03/scroll-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type9/01/bg1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type9/01/bg2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type9/01/bg3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type9/01/map.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type9/01/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type9/02/bg1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type9/02/bg2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type9/02/bg3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type9/02/map.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type9/02/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type9/03/bg1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type9/03/bg2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type9/03/bg3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type9/03/map.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/homepage/template/img/main/type9/03/search.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB-INF/views/app/homepage/layout/subLayout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB-INF/views/app/homepage/template/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB-INF/views/app/homepage/template/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB-INF/views/app/homepage/template/main/type8/01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB-INF/views/app/homepage/template/main/type8/01/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB-INF/views/app/homepage/template/main/type8/02/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB-INF/views/app/homepage/template/main/type8/02/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WEB-INF/views/app/homepage/template/main/type8/03/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WEB-INF/views/app/homepage/template/main/type8/03/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/homepage/template/css/common/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/homepage/template/css/common/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/homepage/template/css/culture/type1/01/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/homepage/template/css/culture/type1/01/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/homepage/template/css/main/type8/01/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/homepage/template/css/main/type8/01/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/homepage/template/css/main/type8/02/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/homepage/template/css/main/type8/02/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/homepage/template/css/main/type8/03/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/homepage/template/css/main/type8/03/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/homepage/template/css/main/type9/01/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/homepage/template/css/main/type9/01/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/homepage/template/js/common/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/homepage/template/js/common/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/homepage/template/js/main/type8/01/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/homepage/template/js/main/type8/01/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/homepage/template/js/main/type8/02/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/homepage/template/js/main/type8/02/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/homepage/template/js/main/type8/03/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/homepage/template/js/main/type8/03/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/homepage/template/js/main/type9/01/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/homepage/template/js/main/type9/01/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +93,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2w7Cs5PNhikmlR2xdhiq2TD1k2E" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,7 +104,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/GoodDesigner/WebstormProjects/homepage_template&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/GoodDesigner/WebstormProjects/homepage_template/resources/homepage/template/img/main/type9/03&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -47,18 +119,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\GoodDesigner\WebstormProjects\homepage_template\resources\homepage\template\img\main\type7\03" />
-      <recent name="C:\Users\GoodDesigner\WebstormProjects\homepage_template\resources\homepage\template\img\main\type7\02" />
-      <recent name="C:\Users\GoodDesigner\WebstormProjects\homepage_template\resources\homepage\template\img\main\type7\01" />
-      <recent name="C:\Users\GoodDesigner\WebstormProjects\homepage_template\resources\homepage\template\img\main\type6\01" />
-      <recent name="C:\Users\GoodDesigner\WebstormProjects\homepage_template\resources\homepage\template\img\main\type6\02" />
+      <recent name="C:\Users\GoodDesigner\WebstormProjects\homepage_template\resources\homepage\template\img\main\type9\03" />
+      <recent name="C:\Users\GoodDesigner\WebstormProjects\homepage_template\resources\homepage\template\img\main\type9\02" />
+      <recent name="C:\Users\GoodDesigner\WebstormProjects\homepage_template\resources\homepage\template\img\main\type9\01" />
+      <recent name="C:\Users\GoodDesigner\WebstormProjects\homepage_template\resources\homepage\template\img\main\type8\03" />
+      <recent name="C:\Users\GoodDesigner\WebstormProjects\homepage_template\resources\homepage\template\img\main\type8\02" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\GoodDesigner\WebstormProjects\homepage_template" />
       <recent name="C:\Users\GoodDesigner\WebstormProjects\homepage_template\resources\homepage\template\img\main\type5\03" />
       <recent name="C:\Users\GoodDesigner\WebstormProjects\homepage_template\resources\homepage\template\img\main\type5\02" />
       <recent name="C:\Users\GoodDesigner\WebstormProjects\homepage_template\resources\homepage\template\img\main\type5\01" />
       <recent name="C:\Users\GoodDesigner\WebstormProjects\homepage_template\resources\homepage\template\img\main\type3\03" />
-      <recent name="C:\Users\GoodDesigner\WebstormProjects\homepage_template\resources\homepage\template\img\main\type3\02" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -77,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1745383428966</updated>
       <workItem from="1745383430120" duration="10619000" />
-      <workItem from="1745816992635" duration="48834000" />
+      <workItem from="1745816992635" duration="74928000" />
     </task>
     <task id="LOCAL-00001" summary="[init] init">
       <option name="closed" value="true" />
@@ -87,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745970739443</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[init] add .gitignore">
+      <option name="closed" value="true" />
+      <created>1745971931599</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745971931599</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +175,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[init] init" />
-    <option name="LAST_COMMIT_MESSAGE" value="[init] init" />
+    <MESSAGE value="[init] add .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="[init] add .gitignore" />
   </component>
 </project>

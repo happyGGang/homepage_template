@@ -1,0 +1,253 @@
+#fullpage .section:nth-child(1) {
+    background: var(--white);
+}
+
+#fullpage .section:nth-child(1) .wrapper {
+    display: flex;
+    align-items: flex-end;
+    gap: 100px;
+}
+
+.main-popup-slide-wrapper {
+    position: relative;
+    width: 474px;
+    height: 670px;
+    border-radius: 12px;
+}
+
+.main-popup-slide {
+    width: 100%;
+    height: 100%;
+}
+
+.main-popup-slide-item img {
+    width: 474px;
+    height: 670px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.main-popup-control {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+
+.main-popup-prev {
+    border-radius: 0 0 0 12px;
+}
+
+.main-popup-prev,
+.main-popup-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: rgb(0 0 0 / 30%);
+    cursor: pointer;
+}
+
+.main-popup-prev img,
+.main-popup-next img,
+.main-popup-play-and-pause {
+    width: 24px;
+    height: 24px;
+}
+
+.main-popup-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    color: var(--white);
+    background: var(--black);
+    font-family: Pretendard-Medium, sans-serif;
+    font-style: normal;
+}
+
+.main-popup-play-and-pause {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: rgb(0 0 0 / 50%);
+    cursor: pointer;
+}
+
+@keyframes fade-in-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slogan {
+    font-size: 54px;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -1.08px;
+    color: var(--black);
+    opacity: 0;
+    font-family: GmarketSans, sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    animation: fade-in-up 0.8s ease-out forwards;
+    animation-delay: 0.3s;
+}
+
+.slogan span {
+    font-weight: 500;
+}
+
+.quick-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.quick-menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 866px;
+    height: 140px;
+    border-radius: 12px;
+    padding-right: 40px;
+    background: #fff;
+}
+
+.quick-menu-item-title {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 152px;
+}
+
+.quick-menu-item-title div:first-child {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--black);
+    font-family: Pretendard-Medium, sans-serif;
+    font-style: normal;
+}
+
+.quick-menu-item-title div:last-child {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    color: var(--gray600);
+    font-family: Pretendard-Regular, sans-serif;
+    font-style: normal;
+}
+
+.quick-menu-item:nth-child(1) {
+    background: #fff url('/resources/homepage/template/img/main/type8/02/hope-book.svg') no-repeat left 40px center;
+    background-size: 80px;
+}
+
+.quick-menu-item:nth-child(2) {
+    background: #fff url('/resources/homepage/template/img/main/type8/02/loan.svg') no-repeat left 40px center;
+    background-size: 80px;
+}
+
+.quick-menu-item:nth-child(3) {
+    background: #fff url('/resources/homepage/template/img/main/type8/02/e-library.svg') no-repeat left 40px center;
+    background-size: 80px;
+}
+
+.quick-menu-item.active:nth-child(1) {
+    background: #00784e url('/resources/homepage/template/img/main/type8/02/hope-book-active.svg') no-repeat left 40px center;
+    background-size: 80px;
+}
+
+.quick-menu-item.active:nth-child(2) {
+    background: #00784e url('/resources/homepage/template/img/main/type8/02/loan-active.svg') no-repeat left 40px center;
+    background-size: 80px;
+}
+
+.quick-menu-item.active:nth-child(3) {
+    background: #00784e url('/resources/homepage/template/img/main/type8/02/e-library-active.svg') no-repeat left 40px center;
+    background-size: 80px;
+}
+
+.quick-menu-item.active .quick-menu-item-title div:first-child,
+.quick-menu-item.active .quick-menu-item-title div:last-child {
+    color: var(--white);
+}
+
+@keyframes arrow-move {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.quick-menu-item img {
+    width: 40px;
+    height: 40px;
+    animation: arrow-move 1.2s infinite ease-in-out;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+@keyframes pull-down {
+    0% {
+        transform: rotate(-90deg) translateX(0);
+    }
+
+    50% {
+        transform: rotate(-90deg) translateX(6px);
+    }
+
+    100% {
+        transform: rotate(-90deg) translateX(0);
+    }
+}
+
+.scroll-down div {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.35px;
+    text-align: center;
+    color: var(--gray500);
+    transform: rotate(-90deg);
+    font-family: Pretendard-Regular, sans-serif;
+    font-style: normal;
+    animation: pull-down 1.2s infinite ease-in-out;
+}
+
+.scroll-down img {
+    width: 25px;
+    height: 89px;
+}

@@ -1,0 +1,224 @@
+@charset "utf-8";
+
+#header .head {
+    position: fixed;
+    z-index: 999;
+    flex-direction: column;
+    width: 100%;
+    background: #fff;
+}
+
+/* 탑 */
+.tnb {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border-bottom: 1px solid #ececec;
+}
+
+.tnb div:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.tnb div:first-child a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 10px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: -0.35px;
+    text-align: center;
+    color: var(--black);
+    font-family: Pretendard-SemiBold, sans-serif;
+    font-style: normal;
+    border-right: 1px solid #ececec;
+}
+
+.util-wrapper {
+    display: flex;
+}
+
+.util {
+    display: flex;
+}
+
+.util div,
+.util a {
+    position: relative !important;
+    padding: 0 20px !important;
+    border: none !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 130% !important;
+    letter-spacing: -0.35px !important;
+    text-align: center !important;
+    color: var(--black) !important;
+    font-family: Pretendard-Regular, sans-serif !important;
+    font-style: normal !important;
+}
+
+.util a::after {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 1px;
+    height: 12px;
+    background: #e8e8e8;
+    transform: translateY(-50%);
+    content: '';
+}
+
+.util a:last-child::after {
+    content: none;
+    display: none;
+}
+
+.total-popup-trigger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 10px 52px !important;
+    background: var(--gray200);
+    gap: 4px;
+    cursor: pointer;
+}
+
+.total-popup-trigger div:first-child {
+    padding: 0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: -0.35px;
+    text-align: center;
+    color: var(--black);
+    font-family: Pretendard-SemiBold, sans-serif;
+    font-style: normal;
+}
+
+.total-popup-trigger div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: center;
+    color: var(--white);
+    background: var(--black);
+    font-family: Pretendard-Bold, sans-serif;
+    font-style: normal;
+}
+
+/* 탑메뉴 */
+h1 a {
+    width: 260px;
+    height: 58px;
+}
+
+h1 a img {
+    width: 260px;
+    height: 58px;
+    object-fit: contain;
+}
+
+.g-menu {
+    position: fixed;
+    top: 40px;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 40px;
+    background: #fff;
+    border-bottom: 1px solid #ececec;
+}
+
+.gnb-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.gnb-menu > li {
+    position: relative;
+    width: 180px;
+    text-align: center;
+    background: none;
+}
+
+.gnb-menu > li > .SubMenu {
+    position: absolute;
+    top: 58px;
+    left: 50%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    padding: 20px 0;
+    background: #f5f5f5;
+    transform: translateX(-50%);
+    gap: 12px;
+    min-height: 373px;
+    border-right: 1px solid #ececec;
+}
+
+.gnb-menu > li:last-child .SubMenu {
+    border-right: none;
+}
+
+.gnb-menu > li > .SubMenu:hover {
+    background: #464f56;
+}
+
+.gnb-menu > li > .SubMenu:hover li a {
+    color: var(--white);
+}
+
+.gnb-menu > li > .SubMenu li a {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    color: #777;
+    font-family: Pretendard-Medium, sans-serif;
+    font-style: normal;
+}
+
+.gnb-menu > li > .SubMenu li a:hover {
+    text-decoration: underline;
+    color: var(--primary-color-blue2);
+    text-underline-offset: 4px;
+}
+
+.gnb-menu li .SubMenu ul {
+    display: none;
+}
+
+.gnb-menu > li > a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: -0.45px;
+    text-align: right;
+    color: var(--black);
+    font-family: Pretendard-Bold, sans-serif;
+    font-style: normal;
+}

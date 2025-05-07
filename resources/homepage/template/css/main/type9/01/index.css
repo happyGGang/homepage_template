@@ -1,0 +1,109 @@
+.main-bg-slide {
+    width: 100%;
+    height: 100%;
+}
+
+.main-bg-slide div:nth-child(1) {
+    position: relative;
+    height: 100vh;
+    background: url('/resources/homepage/template/img/main/type7/01/bg1.svg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main-bg-slide div:nth-child(2) {
+    position: relative;
+    height: 100vh;
+    background: url('/resources/homepage/template/img/main/type7/01/bg2.svg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main-bg-slide div:nth-child(3) {
+    position: relative;
+    height: 100vh;
+    background: url('/resources/homepage/template/img/main/type7/01/bg3.svg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main-bg-slide div:nth-child(1)::after,
+.main-bg-slide div:nth-child(2)::after,
+.main-bg-slide div:nth-child(3)::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 179px;
+    background: var(--white);
+    content: '';
+}
+
+.main-bg-slide div:nth-child(1)::before,
+.main-bg-slide div:nth-child(2)::before,
+.main-bg-slide div:nth-child(3)::before {
+    position: absolute;
+    bottom: 179px;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 72px;
+    background: rgb(0 0 0 / 20%);
+    backdrop-filter: blur(5px);
+    content: '';
+}
+
+#fullpage .section:nth-child(1) .wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes fade-in-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slogan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    opacity: 0;
+    animation: fade-in-up 0.8s ease-out forwards;
+    animation-delay: 0.3s;
+    margin-bottom: 178px;
+}
+
+.slogan div:first-child {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4px;
+    color: var(--white);
+    font-family: Pretendard-Regular, sans-serif;
+    font-style: normal;
+}
+
+.slogan div:last-child {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.2px;
+    color: var(--white);
+    font-family: GmarketSans, sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.slogan div:last-child span {
+    font-weight: 700;
+}
